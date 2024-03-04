@@ -6,3 +6,9 @@ sky:
     database: sky_take_out
     username: root
     password: sys
+
+  alioss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: LTAI5tEbEggPH5FYqjMRJ3S2
+    access-key-secret: E9tdT3tEUfAevLxK9GQkDE0azMZSjo
+    bucket-name: obama-sky-takeout
