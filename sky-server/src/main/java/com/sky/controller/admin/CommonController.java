@@ -35,7 +35,7 @@ public class CommonController {
             String originalFileName = file.getOriginalFilename();
             // 截取文件后缀
             String extensionName = originalFileName.substring(originalFileName.lastIndexOf("."));
-            String objectName = UUID.randomUUID().toString() + extensionName;
+            String objectName = UUID.randomUUID() + extensionName;
             // 获得文件路径
             String filePath = aliOssUtil.upload(file.getBytes(), objectName);
             return Result.success(filePath);
